@@ -10,7 +10,7 @@ int main() {
 	while (tt--) {
 		int n;
 		cin >> n;
-		// check if 360 is divisble by 'n' to see if it's possible to make equal parts
+		// check if 360 is divisble by 'n' to see if it's possible to make 'n' equal parts
 		cout << (360 % n == 0 ? 'y' : 'n') << " ";
 		// check if 'n' is less than or equal to 360 to see if it's possible to make 'n' parts
 		cout << (n <= 360 ? 'y' : 'n') << " ";
